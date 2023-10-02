@@ -16,13 +16,14 @@ public class Q3_newArrayWithStartLengthPosition {
         if(start < 0 || len < 0 || start + len > a.length) {
             return null;
         }
-        char[] newArray = new char[len];
-        int j = 0;
-        for(int i=start; i<(start + len); i++) {
-            newArray[j] += a[i];
+
+        char[] charArray = new char[len];
+        int j=0;
+        for(int i=start; i<(start+len); i++) {
+            charArray[j] += a[i];
             j++;
         }
-        return Arrays.toString(newArray);
+        return Arrays.toString(charArray);
     }
 }
 
