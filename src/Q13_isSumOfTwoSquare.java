@@ -7,7 +7,7 @@ public class Q13_isSumOfTwoSquare {
 
     public static int isSumOfTwoSquare(int n) {
         int cnt = 0;
-        for(int i=1; i<n; i++) {t ast
+        for(int i=1; i<n; i++) {
             for(int j=1; j<n; j++) {
                 if(n == i*i + j*j) {
                     cnt++;
