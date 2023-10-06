@@ -39,6 +39,7 @@ public class Q16_isMadhavArray {
             }
             if(sumHadhav != firstValue) {
                 flagMadhav = 0;
+                break;
             }
             round++;
             firstIndex = lastIndex + 1;
