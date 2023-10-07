@@ -12,20 +12,35 @@ public class Q9_primeCount {
     public static int primeCount(int start, int end) {
         int cnt = 0;
         for(int i=start; i<=end; i++) {
-            if(i > 1) {
-                int isPrime = 1;
-                for(int j=2; j<=i/2; j++) {
-                    if(i%j == 0) {
-                        isPrime = 0;
-                        break;
-                    }
-                }
-                if(isPrime == 1) {
-                    cnt++;
-                }
+//            if(i > 1) {
+//                int isPrime = 1;
+//                for(int j=2; j<=i/2; j++) {
+//                    if(i%j == 0) {
+//                        isPrime = 0;
+//                        break;
+//                    }
+//                }
+//                if(isPrime == 1) {
+//                    cnt++;
+//                }
+//            }
+            if(isPrime(i) == 1) {
+                cnt++;
             }
         }
         return cnt;
+    }
+
+    public static int isPrime(int num) {
+        if(num > 1) {
+            for(int i=2; i<=num/2; i++) {
+                if(num % i == 0) {
+                    return 0;
+                }
+            }
+            return 1;
+        }
+        return 0;
     }
 }
 
