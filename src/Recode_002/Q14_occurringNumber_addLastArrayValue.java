@@ -1,6 +1,6 @@
 package Recode_002;
 
-public class Q14_occurringNumber {
+public class Q14_occurringNumber_addLastArrayValue {
     public static void main(String[] args) {
         System.out.println(occurringNumber(new int[]{6,8,1,8,2}));
         System.out.println(occurringNumber(new int[]{6,8,1,8,6}));
