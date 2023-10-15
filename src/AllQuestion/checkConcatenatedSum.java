@@ -14,18 +14,9 @@ public class checkConcatenatedSum {
         int sumValue = 0;
         int tempNum = n;
 
-//        while(n > 0) {
-//            int lastDigit = n % 10;
-//            sumValue +=
-//            n /= 10;
-//        }
-
         while (tempNum > 0) {
             int digit = tempNum % 10;
             tempNum /= 10;
-//            for (int i = 1, j = 1; j <= catlen; i *= 10, j++) {
-//                sumValue += digit * i;
-//            }
 
             int digitMulti = digit;
             for(int i=1; i<catlen; i++) {
