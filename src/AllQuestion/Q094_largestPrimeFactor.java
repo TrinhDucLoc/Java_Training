@@ -1,7 +1,5 @@
 package AllQuestion;
 
-import java.nio.file.Path;
-
 public class Q094_largestPrimeFactor {
     public static void main(String[] args) {
         System.out.println(largestPrimeFactor(10));
