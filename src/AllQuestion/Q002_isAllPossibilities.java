@@ -1,6 +1,6 @@
 package AllQuestion;
 
-public class isAllPossibilities {
+public class Q002_isAllPossibilities {
     public static void main(String[] args) {
         System.out.println(isAllPossibilities(new int[]{1, 2, 0, 3}));
         System.out.println(isAllPossibilities(new int[]{3, 2, 1, 0}));
