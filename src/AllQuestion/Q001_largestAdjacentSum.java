@@ -1,6 +1,6 @@
 package AllQuestion;
 
-public class largestAdjacentSum {
+public class Q001_largestAdjacentSum {
     public static void main(String[] args) {
         System.out.println(largestAdjacentSum(new int[]{1, 2, 3, 4}));
         System.out.println(largestAdjacentSum(new int[]{18, -12, 9, -10}));
@@ -24,23 +24,17 @@ public class largestAdjacentSum {
         return sum;
     }
 
-//    static int largestAdjacentSum1(int[] a) {
-////        validate
-//        if(a.length < 2) {
-//            return 0;
-//        }
-//
-////        solution
-//        for(int i=0; i< a.length - 1; i++) {
-//            for(int j=i+1; j<a.length; j++) {
-//                if(a[i] > a[j]) {
-//                    int temp = a[i];
-//                    a[i] = a[j];
-//                    a[j] = temp;
-//                }
-//            }
-//        }
-//
-//        return a[a.length - 2] + a[a.length - 1];
-//    }
+    static int largestAdjacentSum1(int[] a) {
+        if(a.length < 2) {
+            return 0;
+        }
+
+        int sum = Integer.MIN_VALUE;
+        for(int i=0; i<a.length; i++) {
+            if(a[i] + a[i+1] > sum) {
+                sum = a[i] + a[i+1];
+            }
+        }
+        return sum;
+    }
 }
