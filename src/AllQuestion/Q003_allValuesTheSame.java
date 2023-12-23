@@ -1,6 +1,6 @@
 package AllQuestion;
 
-public class allValuesTheSame {
+public class Q003_allValuesTheSame {
     public static void main(String[] args) {
         System.out.println(allValuesTheSame(new int[]{1, 1, 1, 1}));
         System.out.println(allValuesTheSame(new int[]{83, 83, 83}));
