@@ -1,0 +1,15 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±¯ÒĞ8ˆßÿ»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆÎÁí8‰ßÿ»1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â±Şøÿÿÿÿÿ8’àÿ»1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨“¡÷8Ê€‘»1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÁƒÈšşÿÿÿÿ8Ê€‘»1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(œ™8Ê€‘»1
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(¦úº…ÿÿÿÿÿ8íŸ€‘»1
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(™Ñú«üÿÿÿÿ8íŸ€‘»1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒİÜÌ8íŸ€‘»1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹Š³Å8íŸ€‘»1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²õ¦ßşÿÿÿÿ8íŸ€‘»1
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ÎÏäl8’àÿ»1

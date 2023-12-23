@@ -1,0 +1,9 @@
+
+L
+java:S1066"/Merge this if statement with the enclosing one.(ĞÎâë8­ÅÕĞ·1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€ãØ­8®ÅÕĞ·1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆÎÁí8®ÅÕĞ·1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¦Òâàüÿÿÿÿ8ïÚÖĞ·1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¦°ƒç8ğÚÖĞ·1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(î»¨E8³·×Ğ·1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•…°Ó8´·×Ğ·1

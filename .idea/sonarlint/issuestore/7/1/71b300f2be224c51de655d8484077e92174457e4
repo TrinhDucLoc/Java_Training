@@ -1,0 +1,9 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ν•»•ÿÿÿÿÿ8–½Ο²1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(΄‘ÿλώÿÿÿÿ8—½Ο²1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ςΛv8οι—Ο²1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(δ¨λ«ÿÿÿÿÿ8ΘαΟ²1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ΠΜΓ°όÿÿÿÿ8ΘαΟ²1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(έλΙÒ8ΘαΟ²1
+i
+java:S1871"LThis branch's code block is the same as the block for the branch on line 18.(ηύƒυ8¦½Ο²1
