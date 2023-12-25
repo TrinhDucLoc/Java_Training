@@ -13,7 +13,6 @@ public class Q054_isHollow {
     }
 
     public static int isHollow(int[] a) {
-        int flagZero = 0;
         int countZero = 0;
         int left = 0, right = a.length - 1;
         int mid = (left + right) / 2;
