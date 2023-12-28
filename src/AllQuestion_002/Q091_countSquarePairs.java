@@ -1,6 +1,6 @@
 package AllQuestion_002;
 
-public class Q91_countSquarePairs {
+public class Q091_countSquarePairs {
     public static void main(String[] args) {
         System.out.println(countSquarePairs(new int[]{9, 0, 2, -5, 7} ));
         System.out.println(countSquarePairs(new int[]{9}));
