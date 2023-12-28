@@ -1,6 +1,6 @@
 package AllQuestion_002;
 
-public class Q079_isNormal {
+public class Q080_isNormal {
     public static void main(String[] args) {
         System.out.println(isNormal(1));
         System.out.println(isNormal(2));
